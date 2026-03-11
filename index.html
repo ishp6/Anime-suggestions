@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime Suggestions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Anime Suggestion Finder</h1>
+    <p class="subtitle">Pick a genre and discover what to watch next — plus why it's worth your time.</p>
+
+    <div class="controls">
+      <label for="genre">Choose a genre:</label>
+      <select id="genre">
+        <option value="">-- Select Genre --</option>
+      </select>
+      <button id="suggestBtn">Suggest Anime</button>
+    </div>
+
+    <section id="result" class="result hidden" aria-live="polite"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
